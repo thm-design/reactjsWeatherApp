@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+}
+
+div,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.weatherBoxContainer {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 50%;
+  overflow: auto;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 47.5em) {
+  .weatherBoxContainer {
+    overflow: visible;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .weatherBoxContainer {
+    top: 0;
+  }
+}
