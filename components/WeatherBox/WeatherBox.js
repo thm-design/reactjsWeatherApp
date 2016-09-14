@@ -39,7 +39,6 @@ class WeatherBox extends React.Component {
           </div>
           <div className={styles.icon}>
             <img alt={'icon'} src={icon} />
-            <span className={styles.line} />
           </div>
           <div className={styles.leftInnerRight}>
             <div className={styles.desc} id="desc">{weather.description}</div>
