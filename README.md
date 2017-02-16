@@ -10,8 +10,7 @@
  ✓ Hot Module Replacement ([HMR](https://webpack.github.io/docs/hot-module-replacement.html)) /w [React Hot Loader](http://gaearon.github.io/react-hot-loader/)
  ✓ Cross-device testing with [Browsersync](https://browsersync.io/) (see [`run.js#start`](run.js))
 
-**Demo**: https://weatherapp-1b6dd.firebaseapp.com/
-
+**Demo**: https://weatherapp-1b6dd.firebaseapp.com/ . (API KEY no longer valid, demo currently defunkt)
 
 ### Directory Layout
 
